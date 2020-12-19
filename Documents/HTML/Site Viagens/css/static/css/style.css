@@ -1,0 +1,97 @@
+p {
+    color: blueviolet;
+    font-size: 180%;
+}
+
+h1 {
+    text-align: center;
+    background: linear-gradient(#e6e6e6,#525ecf);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    font-size: 5em;
+    color: blueviolet;
+    text-shadow: #003366;
+}
+
+h2 {
+    text-align: center;
+    position: static;
+}
+
+.a {
+    display: inline-block;
+    background-color: blue;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: 1px solid blue;    
+    transition: background-color .3s cubic-bezier(1,.02,0,.88);
+}
+
+.a:hover {
+    background-color: white;
+    color: blue;
+}
+
+.display {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 200px;    
+}
+
+body {    
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(#99ccff, #e6e6e6); 
+}
+
+.center {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bolinha {      
+    margin: 5px;      
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-items: center;
+
+    box-sizing: border-box;     
+    box-shadow: 2px 2px 15px #004d00, 2px 2px 15px #003366;
+    transition: all .3s
+}
+
+.bolinha:hover {    
+    height: 250px;
+    width: 250px;
+    transition: all .3s
+}
+
+.bolinha_container {
+    text-align: center;
+}
+
+.bolinha:active {
+    height: 200px;
+    width: 200px;
+    transition: all .3s
+}
+
+a {
+    text-decoration: none;
+}
